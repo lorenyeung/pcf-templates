@@ -1,0 +1,9 @@
+applications:
+- name: ((PCF_APP_NAME))
+  memory: ((PCF_APP_MEMORY))
+  instances : ((INSTANCES))
+  random-route: true
+  health-check-type: http
+  health-check-http-endpoint: /
+  buildpacks:
+   - binary_buildpack
