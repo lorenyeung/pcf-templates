@@ -1,0 +1,3 @@
+PCF_APP_NAME: <+service.name>
+PCF_APP_MEMORY: 32M
+INSTANCES: 2
